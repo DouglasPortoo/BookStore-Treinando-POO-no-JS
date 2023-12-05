@@ -1,16 +1,16 @@
-class Product{
-  constructor(name, description, price, inStock = 0){
+class Product {
+  constructor(name, description, price, inStock = 0) {
     this.name = name
     this.description = description
     this.price = price
     this.inStock = inStock
   }
 
-  addToStock(quantity){
+  addToStock(quantity) {
     this.inStock += quantity
   }
 
-  removeFromStock(quantity){
+  removeFromStock(quantity) {
     this.inStock -= quantity
   }
 }
